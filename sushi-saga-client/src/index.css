@@ -14,13 +14,23 @@ body {
       ". . . . ."
       ". bt bt bt ."
       ". . rm . ."
-      ". tb tb tb .";
+      ". tb tb tb ."
+      ". . ft . .";
 }
 
 
 .remaining {
   grid-area: rm;
   margin: auto;
+}
+
+.wallet {
+  grid-area: ft;
+  margin-bottom: 75px
+}
+
+.button {
+  margin: 10px
 }
 
 .plate {
